@@ -31,8 +31,10 @@ For both functions, indentation of the inserted variable is done with
 with `==`).  Each function creates a mark ('v'), so you can jump back to the
 variable declaration with ```v`` or `'v`.
 
+# Example use
+![Usage GIF](hank.github.io/vim-createcvar/animation.gif)
 
-## Example mappings
+# Example mappings
 
 ```vim
 nnoremap <Leader>dv :call NewVarAtTopOfFunction()<CR>
